@@ -1,0 +1,113 @@
+login.css 
+body{
+    position: relative;
+}
+
+.re_passwd{
+    font-size: 8px;
+}
+
+#login_frame {
+    background-size: cover;
+    width: 400px;
+    height: 260px;
+    padding: 13px;
+    position: absolute;
+    left: 50%;
+    top: 49%;
+    margin-left: -200px;
+    margin-top: -200px;
+    border: solid 3px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+table {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+img {
+    margin-left: 20px;
+    width: 300px;
+}
+
+.label_input {
+    font-size: 14px;
+    font-family: 宋体;
+    position: absolute;;
+    width: 65px;
+    height: 30px;
+    line-height: 28px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    background-color: #3CD8FF;
+    border-radius: 10px 0 0 10px;
+
+}
+
+.text_field {
+    width: 278px;
+    height: 28px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border: 0;
+    margin-left: 65px;
+}
+
+#btn_login {
+    position: absolute;
+    left: 265px;
+    font-size: 14px;
+    font-family: 宋体;
+    width: 120px;
+    height: 28px;
+    line-height: 28px;
+    text-align: center;
+    color: white;
+    background-color: #3BD9FF;
+    border-radius: 6px;
+    border: 0;
+    float: left;
+}
+
+#forget_pwd {
+    font-size: 12px;
+    color: rgb(15, 1, 1);
+    text-decoration: none;
+    position: relative;
+    float: right;
+    left: -264px;
+    top: 8px;
+    border-radius: 6px;
+    border: 0;
+    font-size: 10px;
+    font-family: 宋体;
+    width: 90px;
+}
+
+#forget_pwd:hover {
+    color: blue;
+    text-decoration: underline;
+}
+
+#login_control {
+    padding: 0 28px;
+}
+
+ul{
+    list-style: none;
+    display: inline;
+    position: absolute;
+    width: 1000px;
+    top: 70%;
+    left: 27%;
+}
+ul li{
+    display: inline;
+    
+}
+ul li img{
+    width: 200px;
+    height: 150px;
+}
